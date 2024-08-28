@@ -1,47 +1,138 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moda Chic</title>
-    <link rel="stylesheet" href="styles.css">
+  <title>Mi Primera Página Web</title>
+  <title>Mi Portafolio Personal</title>
+  <style>
+    /* Reset de estilos para el body */
+    body {
+    margin: 0;
+    padding: 0;
+    }
+
+    /* Estilos generales para los encabezados */
+    h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    }
+
+    /* Estilos para la sección de inicio */
+    #inicio {
+    padding: 50px;
+    background-color: #5ABF7D;
+    }
+
+    #inicio img {
+    width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
+    height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
+    border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+    }
+
+
+    /* Estilos para la sección de habilidades */
+    #habilidades {
+    padding: 50px;
+    background-color: #030303;
+    }
+
+    /* Estilos para la lista de habilidades */
+    #habilidades ul {
+    list-style-type: none;
+    }
+
+    /* Estilos para la sección de proyectos */
+    #proyectos {
+    padding: 50px;
+    background-color: #A7F2C8;
+    }
+
+    /* Estilos para la lista de proyectos */
+    #proyectos ul {
+    list-style-type: none;
+    }
+
+    /* Estilos para la sección de contacto */
+    #contacto {
+    padding: 50px;
+    background-color: #84BF9E;
+    }
+
+    /* Estilos para la lista de contacto */
+    #contacto ul {
+    list-style-type: none;
+    }
+
+    /* Estilos generales para los párrafos y listas */
+    p, ul {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    }
+  </style>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>
-        <h1>Moda Chic</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Mujer</a></li>
-                <li><a href="#">Hombre</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Bienvenido a mi Página Web</h1>
+  </header>
+  <nav>
+  <!-- Sección de inicio -->
+  <section id="inicio">
+    <img src="https://th.bing.com/th/id/OIG4.43BhOEUH9SK5GgSxsHXD?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="Imagen de cabecera">
+    <h1>Nombre Apellido</h1>
+    <p>Breve descripción sobre ti y tus intereses profesionales.</p>
+  </section>
 
-    <main>
-        <section class="producto">
-            <img src="vestido.jpg" alt="Vestido floral">
-            <div class="descripcion">
-                <h2>Vestido floral</h2>
-                <p>Elegante vestido floral ideal para cualquier ocasión.</p>
-                <p>Precio: $99.99</p>
-                <button>Comprar</button>
-            </div>
-        </section>
+  <!-- Sección de habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#acerca-de">Acerca de</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Otras habilidades relevantes</li>
+    </ul>
+  </nav>
+  <section id="inicio">
+    <h2>¡Hola Mundo!</h2>
+    <p>Bienvenido a mi primera página web. Aquí encontrarás información interesante sobre diversos temas.</p>
+  </section>
+  <section id="acerca-de">
+    <h2>Acerca de Mí</h2>
+    <p>Soy un apasionado del desarrollo web y me encanta aprender nuevas tecnologías. ¡Espero que disfrutes de mi página web!</p>
 
-        <section class="productos">
-            <h2>Más productos</h2>
-            <div class="producto-pequeño">
-                <img src="camiseta.jpg" alt="Camiseta básica">
-                <p>Camiseta básica</p>
-                <p>$29.99</p>
-            </div>
-            </section>
-    </main>
+  <!-- Sección de proyectos -->
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <ul>
+      <li>Nombre del Proyecto 1</li>
+      <li>Nombre del Proyecto 2</li>
+      <li>Nombre del Proyecto 3</li>
+      <!-- Puedes agregar más proyectos aquí -->
+    </ul>
+  </section>
 
-    <footer>
-        <p>&copy; 2023 Moda Chic. Todos los derechos reservados.</p>
-    </footer>
+  <!-- Sección de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Ponte en contacto conmigo a través de mi correo electrónico o redes sociales. ¡Estoy ansioso por escucharte!</p>
+    <p>Puedes contactarme a través de los siguientes medios:</p>
+    <ul>
+      <li>Email: tu@email.com</li>
+      <li>Teléfono: +123456789</li>
+      <li>Redes sociales: enlace a tus perfiles en redes sociales</li>
+    </ul>
+  </section>
+  <footer>
+    <p>Derechos de autor &copy; 2023. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Puedes agregar más secciones según tus necesidades -->
+
 </body>
-</html>
+</html> 
