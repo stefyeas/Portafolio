@@ -12,22 +12,31 @@
 
     /* Estilos generales para los encabezados */
     h1, h2 {
-        margin: 32px;
-        padding:24px;
+        margin: 0;
+        padding:0;
         font-family: Arial, sans-serif;
         font-weight: bold;
     }
 
+    h1 {
+        margin-bottom: 20px;
+    }
     /* Estilos para la sección de inicio */
     #inicio {
         padding: 50px;
         background-color: #5ABF7D;
+        text-align:  center;
     }
 
     #inicio img {
         width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
         height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
         border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px
+        
+        
     }
 
 
@@ -70,6 +79,25 @@
     font-size: 16px;
     color: #333;
     }
+
+    p {
+        max-width: 300px; 
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Estilos para los elementos de lista */
+    li {
+      display: inline; /* Cambia a "inline-block" si quieres que tengan un ancho fijo */
+      margin-right: 10px; /* Espaciado entre los elementos de lista */
+    }
   </style>
   <link rel="stylesheet" href="estilos.css">
 </head>
@@ -82,19 +110,14 @@
   <section id="inicio">
     <img src="https://th.bing.com/th/id/OIG4.43BhOEUH9SK5GgSxsHXD?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="Imagen de cabecera">
     <h1>Stefy EAS</h1>
-        <p>Breve descripción sobre ti y tus intereses profesionales.</p>                                                                                                            
-            <ul class="social-icons">
-                <li>
-                    <a href="https://www.facebook.com/tuperfil" target="_blank">
-                        <img src="facebook.png" alt="Facebook">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com/tuperfil" target="_blank">
-                        <img src="twitter.png" alt="x">
-                    </a>
-                </li>
-                </ul>
+    <p>Breve descripción sobre ti y tus intereses profesionales.</p>                                                                                                            
+    <ul>
+        <!-- Enlaces a redes sociales -->
+        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        <li><a href="https://twitter.com/">Twitter</a></li>
+        <li><a href="https://github.com/">GitHub</a></li>
+        <!-- Agrega más enlaces a tus redes sociales aquí -->
+    </ul>
             </section>
 
   <!-- Sección de habilidades -->
@@ -148,8 +171,3 @@
 
 </body>
 </html>
-
-  <!-- Puedes agregar más secciones según tus necesidades -->
-
-</body>
-</html> 
